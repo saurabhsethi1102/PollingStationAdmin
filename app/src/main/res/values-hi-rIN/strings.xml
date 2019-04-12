@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">प्रशासक</string>
+        <string name="admin_login">प्रशासक लॉग इन</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="password">पासवर्ड </string>
+    <string name="login">लॉग इन करें</string>
+    <string name="polling_station">मतदान केंद्र</string>
+    <string name="people">कतार में लोगों की संख्या दर्ज करें</string>
+    <string name="no_people">लोगों की संख्या</string>
+    <string name="update">लोगों को अपडेट करें</string>
+    <string name="logout">लोग आउट</string>
+
+</resources>

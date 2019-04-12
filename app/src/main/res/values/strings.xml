@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Polling Station Admin</string>
+    <string name="home">Admin</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="polling_station">Polling Station</string>
+    <string name="people">Enter the Number of People in Queue</string>
+    <string name="no_people">Number of People</string>
+    <string name="update">Update People</string>
+    <string name="logout">Logout</string>
+
+
+</resources>

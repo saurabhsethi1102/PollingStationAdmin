@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PollingStation">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+      <TextView
+          android:id="@+id/polling_station"
+        android:text="@string/polling_station"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="#cb5235"
+        android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/boothName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"
+            android:text="Polling Station1"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/people"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/people"
+            android:layout_marginTop="40dp"
+            android:textColor="#cb5235"
+            android:textSize="22dp"
+            />
+
+        <EditText
+            android:id="@+id/number"
+            android:inputType="number"
+            android:hint="@string/no_people"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            />
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/update"
+            android:textColor="#fff"
+            android:textSize="22dp"
+            android:background="#cb5235"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>
